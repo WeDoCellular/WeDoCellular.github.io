@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!-- Head BEGIN -->
+<head>
+	<meta charset="utf-8">
+    <title>Payments | NextCellular</title>
+    <meta name="description" content="Payments">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='shortcut icon' type='image/x-icon' href="/files/001196/resources/theme/0001/logo-30.png" sizes="32x32">
+    
+    <link rel="stylesheet" type="text/css" media="all" href="/files/001196/resources/theme/0001/jquery-ui.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="/files/001196/resources/theme/0001/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="/files/001196/resources/theme/0001/style.css?v=4"/>
+    <link rel="stylesheet" type="text/css" media="all" href="/files/001196/resources/theme/0001/owl.carousel.css"/>
+
+    <link rel="stylesheet" type="text/css" media="all" href="/files/001196/resources/theme/0001/responsive.css"/>
+    
+    <link rel="stylesheet" type="text/css" media="all" href="/files/001196/resources/theme/0001/custom.css?v=24"/>
+    
+    <script src="/files/001196/resources/theme/0001/jquery.js"></script>
+    <script src="/files/001196/resources/theme/0001/bootstrap.min.js"></script>
+    <script src="/files/001196/resources/theme/0001/bootbox.min.js"></script>
+    <script src="/js/webapi.js"></script>
+    
+    <!-- bootstrap js -->
+    <script src="/files/001196/resources/theme/0001/jquery-ui.js"></script>
+   
+    <script src="/files/001196/resources/theme/0001/jquery.validate.min.js"></script>
+  
+    <!-- mixit up -->
+    <script src="/files/001196/resources/theme/0001/wow.js"></script>
+    <script src="/files/001196/resources/theme/0001/jquery.mixitup.min.js"></script>
+    <script src="/files/001196/resources/theme/0001/jquery.fitvids.js"></script>
+    <script src="/files/001196/resources/theme/0001/bootstrap-select.min.js"></script>
+    <script src="/files/001196/resources/theme/0001/menuzord.js"></script>
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173124831-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173124831-1');
+</script>
+
+    
+</head>
+<body>
+    <div class="boxed_wrapper">
+    	<header class="top-bar">
+    	    <div class="container">
+    <div class="clearfix table-desktop">
+        <div class="info-top-left">
+            <ul class="top-bar-info">
+                <li>
+                    
+        				Welcome to <strong>NextCellular</strong>, <a href="/sign-in"><strong>Sign-in</strong></a> or <a href="/register"><strong>Register</strong></a>
+        			
+                
+                </li>
+            </ul>
+        </div>
+        <div class="info-top-right">
+            <ul class="social">
+                <!--<li>Stay Connected: </li>-->
+                
+            </ul>
+            <div class="link" style="display: none;">
+                <a href="/page/contact-us" class="thm-btn">Contact Us</a>
+            </div>
+        </div>
+    </div>
+     <div class="clearfix table-mobile">
+        <div class="info-top-left">
+            <ul class="top-bar-info">
+                <li>
+                    
+        				<a href="/sign-in"><strong>Sign-in</strong></a> or <a href="/register"><strong>Register</strong></a>
+        			
+                
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+</div>
+    	</header>
+    	<nav>
+    		<section class="theme_menu stricky" style="z-index: 10">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="main-logo">
+                    <a href="/">
+                        
+                            
+                                <img src="/files/001196/gallery/content/logo/nextcellular_black.png" class="img-responsive" alt="Logo" />
+                             
+                        
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-9 menu-column">
+                <nav class="menuzord" id="main_menu">
+                   <ul class="menuzord-menu">
+                        				
+                            
+        						<li><a href="/"> Home</a></li>
+        					 
+                        				
+                            
+        						<li><a href="/collection/voice~id.1"> Voice</a></li>
+        					 
+                        				
+                            
+        						<li><a href="/collection/data~id.2"> Data</a></li>
+        					 
+                        				
+                            
+        						<li><a href="/collection/combo~id.3"> Combo</a></li>
+        					 
+                        				
+                              
+                                <li><a href=" /collection/top-ups~id.8 ">Top-ups</a>
+                                    <ul class="dropdown">
+                                        
+                                            <li><a  href="/collection/airtime~id.4">Airtime</a></li>
+                                        
+                                            <li><a  href="/collection/data-top-ups~id.6">Data Top-ups</a></li>
+                                        
+                                    </ul>
+                                </li>
+                            
+                        				
+                            
+        						<li><a href="/collection/sms~id.7"> SMS</a></li>
+        					 
+                        				
+                            
+        						<li><a href="/blog/blog"> Blog</a></li>
+        					 
+                        				
+                            
+        						<li><a href="/page/self-help"> Self-Help</a></li>
+        					 
+                        				
+                            
+        						<li><a href="https://partners.next360.co.za:43552/Next360/"> Partners Login</a></li>
+        					 
+                              
+                    </ul><!-- End of .menuzord-menu -->
+                </nav> <!-- End of #main_menu -->
+            </div>
+           
+      
+            
+                <div class="right-column">
+                    <div class="right-area">
+                        <div class="nav_side_content">
+                            <div class="search_option" style="margin-left: 15px;">
+                                <div class="block-minicart" id="cart-top-header" data-src="/cart/summary" style="position: absolute; right: 0px;">
+                                     <a class="minicart" href="/cart" style="position: absolute; right: 0px;">
+    <span class="counter qty">
+        <span class="cart-icon"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>
+        <span class="counter-number">0</span>
+    </span>
+    <span class="counter-your-cart">
+        <!--<span class="counter-label">Your Cart:</span>-->
+        <span class="counter-price">R 0.00</span>
+    </span>
+</a>
+
+<div class="parent-megamenu">
+    
+    <div class="subtitle" style="text-align: center;">You have no items in your shopping cart.</div>
+
+    
+
+<script>
+    function DeleteProductPopup(productId){
+        RC.Server.Cart.remove({ itemId:productId },
+            {success:function(){ 
+                $('#cart-top-header').reload();
+                $('#cart-updated-modal .modal-body').load('/cart/updated', function () {
+                       
+                    });
+            }});
+    }
+</script>
+
+</div>
+                                </div>
+                           </div>
+                       </div>
+                    </div>
+                </div>
+            
+        </div>
+
+   </div> <!-- End of .conatiner -->
+</section>
+    	</nav>
+    	<section>
+      		<div class="inner-banner text-center">
+    <div class="container">
+        <div class="box">
+            <h3>Payment Information</h3>
+        </div><!-- /.box -->
+        <div class="breadcumb-wrapper">
+            <div class="clearfix">
+                <div class="pull-left">
+                    <ul class="list-inline link-list">
+                        <li><a href="/">Home</a></li>
+                        <li>
+                            
+                                Payment Information
+                            
+                        </li>
+                    </ul>
+                </div>
+                <!--<div class="pull-right">
+					<a href="#" class="get-qoute"><i class="fa fa-share-alt"></i>share</a>
+				</div>-->
+            </div><!-- /.container -->
+        </div>
+    </div><!-- /.container -->
+</div>
+
+<section class="service style-2 sec-padd">
+    <div class="container"> 
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="service-sidebar">
+                    <ul class="service-catergory">
+                         
+                            
+                                
+                                    <li><a href="/page/payments">Payment Information</a></li>
+                                
+                                    <li><a href="/page/delivery">Delivery Information</a></li>
+                                
+                                    <li><a href="/page/privacy">Privacy Policy</a></li>
+                                
+                                    <li><a href="/page/terms-conditions">Terms & Conditions</a></li>
+                                
+                                    <li><a href="/page/about-us">About Us</a></li>
+                                
+                                    <li><a href="/page/contact-us">Contact Us</a></li>
+                                
+                            
+                        	
+                    </ul>
+                
+                    
+                    <div class="contact-info2">
+                        <h4>Contact Us</h4>
+                        <div class="text">
+                            <p>Please find below contact details <br>and contact us today! Our experts always ready to help you. </p>
+                        </div>
+                        <ul>
+                            <li><i class="fa fa-phone"></i>Phone: 068 642 4000</li>
+                            <li><i class="fa fa-envelope"></i> <a class="ecaddr">&nbsp;</a></li>
+                        </ul>
+                        <a href="#" class="thm-btn">Get Free Quote</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-8 col-sm-12">
+                <div class="outer-box">
+                    <div class="section-title">
+                         <h1>Payment Information</h1>
+                    </div>
+                    <div class="text">
+                       <blockquote><p>We offer a variety of payment methods through the familiar and trusted PayFast interface. We process MasterCard and Visa credit cards, Instant EFT (with SA&rsquo;s four biggest banks), Masterpass, credit facility mobicred and digital payment method Bitcoin.</p></blockquote><h2>CREDIT &amp; CHEQUE CARDS</h2><p>&nbsp;</p><p>Credit cards are well known and a de facto online payment method the world round. We process local and international credit cards and cheque cards, with a variety of fraud protection mechanisms in place to protect sellers&nbsp;against costly chargebacks.&nbsp;<a title="Credit Cards" href="https://www.payfast.co.za/credit-cheque-cards/">Learn more.</a></p><p>&nbsp;</p><h2>INSTANT EFT</h2><p>&nbsp;</p><p>Instant EFT enables buyers to make payments with traditional internet banking with SA&rsquo;s four biggest banks. The electronic funds transfer (EFT) gets verified instantly. No two day waiting period, no proof of payment required and no disclosing of financial information.&nbsp;<a title="Instant EFT" href="https://www.payfast.co.za/instant-eft/">Learn more.</a></p><p>&nbsp;</p><h2>MOBICRED</h2><p>&nbsp;</p><p>mobicred is an online account that gives buyers access to credit, which they can use on PayFast. The facility works in a similar fashion to retail store credit: only online. Sellers can choose to enable/disable mobicred on their PayFast accounts and there is no risk of default or repudiation to them.&nbsp;<a title="mobicred" href="https://www.payfast.co.za/mobicred/">Learn more.</a></p><p>&nbsp;</p><h2>ATM DEBIT CARDS (VIA VISA ELECTRON AND MAESTRO)</h2><p>&nbsp;</p><p><img alt="" src="https://payfastcoza-bef7.kxcdn.com/wp-content/uploads/Visa-Electron-and-Maestro_Payment-methods.png" />You can accept payment from Visa Electron and Maestro issued debit card holders. Buyers enter their debit card and mobile phone number and then authenticate the transaction on their phone. The system works with devices on the Vodacom or MTN network and with debit cards issued by Absa, Nedbank, Standard Bank, and more.&nbsp;<a title="PayD" href="https://www.payfast.co.za/debit-cards/">Learn more.</a></p><p>&nbsp;</p><h2>MASTERPASS</h2><p>&nbsp;</p><p>Masterpass is a simple, convenient, trusted digital wallet from MasterCard for faster, safer shopping at&nbsp;online merchants. A digital wallet makes online shopping safer and easy by storing payment information in one secure place.&nbsp;<a title="mobicred" href="https://www.payfast.co.za/masterpass/">Learn more.</a></p><p>&nbsp;</p><h2>SCODE</h2><p><img alt="" src="https://payfastcoza-bef7.kxcdn.com/wp-content/uploads/payment-types-scode.png" /></p><p>SCode is a unique payment platform that allows customers to pay for their online purchases in-store at one of more than 6,000 retail outlets across South Africa.&nbsp;<a title="mobicred" href="https://www.payfast.co.za/scode/">Learn more.&nbsp;</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+      		
+      		
+<a data-toggle="modal" id="global-subscription-popup-trigger" href="#global-subscription-popup" style="display: none" class="btn btn-default"><i class="fa fa-question-circle"></i> Show Global Subscription Popup</a>
+
+
+ 
+    
+        <div id="global-subscription-popup" class="modal modal-scroll fade" tabindex="-1" aria-hidden="true"  data-replace="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" role="dismiss" data-dismiss="modal" aria-hidden="true"><span aria-hidden="true">&times;</span></button>
+                        <center>
+                            <img src="/files/001196/gallery/content/logo/nextcellular_black.png" style="width: 150px" alt="Logo" />
+                        </center>
+                    </div>
+                    <div class="modal-body" style="padding: 10px 20px 0px 20px;">
+                        <form id="global-subscriber-form">
+                            <div class="row initial">
+                            
+                                
+                                
+                                    <div class="col-md-4">
+                                        <center>
+                                            <img alt="newsletter" src="/files/001196/gallery/content/landing-popup/as-seen-on-tv-logo-3fceac8925-seeklogo.com.png" style="width: 130px;">
+                                        </center>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <center> 
+                                        
+                                            <h3>SPECIAL OFFER</h3>
+                                        
+                                            <h5 style="margin: 15px 0">Data Price has been dropped upto 60%</h5>
+                                        </center>
+                                        <div class="form-group">
+                                            <input type="text" autofocus class="form-control email required" id="global_subscription_email" name="email" minlength="2" autofocus placeholder="(enter your email address here)">
+                                            <input id="type" name='type' type="hidden" value='newsletter'>
+                                            <span class="error-span" id="error-span"></span>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        </form>
+                        <div class="row subscribed" style="display:none">
+                            <div class="col-md-12">
+                                <center>
+                                    <h5 style="line-height: 1.5;">Thank you for subscribing with <strong><span class="message-email"></span></strong>!</h5>
+                                    <h6 style="margin: 20px 0;">Please check your email shortly for your discount voucher code.</h6>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="row already-existing" style="display:none">
+                            <div class="col-md-12">
+                                <center>
+                                    <h5 style="line-height: 1.5;">Email <strong><span class="message-email"></span></strong> is already subscribed!</h5>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="margin-top:0;">
+        				<div id="enquiry-product-submit-failed" class="alert_box r_corners error m_bottom_10" style="display:none;">
+        		      	    <i class="fa fa-exclamation-triangle"></i><p id="enquiry-product-submit-error"></p>
+                        </div>
+                        <div class="initial">
+                            <button type="button" role="subscribe" class="btn btn-primary">Subscribe</button>
+                            <button type="button" role="dismiss" data-dismiss="modal" class="btn btn-default">Dismiss</button>
+                        </div>
+                        <div class="subscribed" style="display:none">
+                            <button type="button" role="dismiss" data-dismiss="modal" class="btn btn-default">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+<script>
+    $(function() {
+        
+            
+                
+                    
+                        $( document ).ready(function() {
+                            $('#global-subscription-popup-trigger').click();
+                            setTimeout(function(){
+                              $('#global_subscription_email')[0].focus();
+                            }, 1000);
+                        });
+                    
+                
+            
+         
+        
+        $('#global-subscriber-form').validate({
+			messages: {
+				email: {
+					required: 'Please enter your email address',
+					minlenght: 'Please enter your email address',
+					email: 'Please enter a valid email address'
+				}
+			},
+			errorPlacement: function(error, el) {
+                $('#error-span').html(error);
+            },
+			submitHandler: function(form) {
+			    RC.Server.Account.subscribe(RC.Form.serialize($(form)),{
+    			    failure:function(context,msg,xml,jqXHR) {
+    					bootbox.dialog({ 
+                            message:'<h4 style="color:red;">Email Subscription Failed</h4><hr><p>' + msg + '</p>',
+                            buttons:{
+                                main:{
+                                    label: "Close",
+                                    className: "btn btn-mega "
+                                    }
+                                }
+                        });
+    			    },
+    			    success:function(c,h,x){ 
+    			        RC.Server.Session.Data.update({ subscription: 'subscribed' }, {
+    			            success:function() {
+    			                var code = $(x).find('data subscription_result').text();
+                            	if (code == 'new') {
+                            	    //Call to create coupon
+                            	    
+                                        $('.message-email').html($('#global_subscription_email').val());
+                                        $('.initial').hide();
+                                        $('.subscribed').show();
+                                    
+                            	}
+                            	else if (code == 'already-exists') {
+                            	    $('.message-email').html($('#global_subscription_email').val());
+                                    $('.initial').hide();
+                                    $('.already-existing').show();
+                            	}
+                            }
+                        });
+    			    }
+    			});
+			}
+		});
+		
+		$('button[role="subscribe"]').on('click', function(){
+            $('#global-subscriber-form').submit();
+        });
+        
+        $('button[role="dismiss"]').on('click', function(){
+            RC.Server.Session.Data.update({ subscription: 'dismissed' }, {success:function() { 
+                    //alert('success dismiss'); 
+                }
+            });
+        });
+    });
+</script>
+    	</section>
+    	<section class="container">
+            <script>
+                function getLayoutEncodedUrl(text) {
+                    var currentUrl = $('#whatsapp-link-layout').attr('href');
+                    $('#whatsapp-link-layout').attr('href', currentUrl + encodeURIComponent(text));
+                }
+            </script>
+            
+            
+                
+                    
+                
+            
+            <div class="sumome-contactform-pullouttab sumome-contactform-pullouttab-right" style="background-color: rgb(70, 196, 86) !important;">
+        	    <img src="/files/001196/resources/theme/0001/whatsapp-icon-new.png" alt="whatsapp-icon" style="width: 20px;">  
+        	    <a id="whatsapp-link-layout" href="https://api.whatsapp.com/send?phone=27645756032&text=" target="_blank" style="color: #fff !important;">MESSAGE US</a>
+                <script>getLayoutEncodedUrl('Hi, I am interested in your products.');</script>
+        	</div>
+        </section>
+    	<div class="call-out">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <figure class="logo">
+                    <a href="/">
+                        
+                            
+                                <img src="/files/001196/gallery/content/logo/footer-next2.png" class="img-responsive" alt="Logo" style="width: 150px;"/>
+                             
+                        
+                    </a>
+                </figure>
+            </div>
+            <div class="col-md-9 col-sm-12">
+                <div class="float_left">
+                    <h4>
+                        
+                            
+                               South Africa's Simplest Cellular Network
+                             
+                        
+                    </h4>
+                </div>
+                <div class="float_right">
+                    <a href="/page/contact-us" class="thm-btn-tr">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    	<footer class="main-footer">
+    		    <div class="widgets-section">
+        <div class="container">
+            <div class="row">
+                <!--Big Column-->
+                <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                    <div class="row clearfix">
+                        
+                        <!--Footer Column-->
+                        <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-widget about-widget">
+                                <h3 class="footer-title">About Us</h3>
+                                
+                                <div class="widget-content">
+                                    <div class="text">
+                                        
+                                            
+                                               We have built an enviable reputation in the telecommunication industry globally, with our cellular network presence in 3 continents including USA, Canada, Mexico, UK, EU(26 Schengen countries) & South Africa along with a team of distribution experts putting us 2nd to none globally.
+                                             
+                                        
+                                    </div>
+                                    <div class="link">
+                                        <a href="/page/about-us" class="default_link">More About us <i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Footer Column-->
+                        <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                             
+                                
+                                    <div class="footer-widget links-widget">
+                                        <h3 class="footer-title">Information</h3>
+                                        <div class="widget-content">
+                                            <ul class="list">
+                                                
+                                                    <li>
+                                                        <a title="Payment Information" href="/page/payments">Payment Information</a>
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <a title="Delivery Information" href="/page/delivery">Delivery Information</a>
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <a title="Privacy Policy" href="/page/privacy">Privacy Policy</a>
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <a title="Terms & Conditions" href="/page/terms-conditions">Terms & Conditions</a>
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <a title="About Us" href="/page/about-us">About Us</a>
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <a title="Contact Us" href="/page/contact-us">Contact Us</a>
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <a title="FAQ" href="/page/faq">FAQ</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                              
+                        </div>
+                    </div>
+                </div>
+                
+                <!--Big Column-->
+                <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                    <div class="row clearfix">
+                        <!--Footer Column-->
+                        <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-widget contact-widget">
+                                <h3 class="footer-title">Contact us</h3>
+                                <div class="widget-content">
+                                    <ul class="contact-info">
+                                        <li><span class="icon-signs"></span>
+                                            
+                                            	<div class="address add"> 
+                                            		 <p>8 Wessels Road, Rivonia, Sandton 2129  <br>Gauteng</p>
+                                            	</div>
+                                            
+                                        </li>
+                                        <li><span class="icon-phone-call"></span> Phone: 068 642 4000</li>
+                                        <li><span class="icon-e-mail-envelope"></span> <a class="ecaddr">&nbsp;</a></li>
+                                    </ul>
+                                </div>
+                                <ul class="social">
+                                    
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!--Footer Column-->
+                        <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-widget news-widget">
+                                <h3 class="footer-title">Newsletter</h3>
+                                <div class="widget-content">
+    <div class="text"><p>Sign up today for hints, tips and the <br>latest product news</p></div>
+    <form  id="subscriber-form" class="default-form" >
+		<input type="text" class="form-control"  name="email" id="newsletter-email" placeholder="Your email" required>
+    	<input id="type" name='type' type="hidden" value='newsletter'>
+    	
+    	<span class="error-span" id="error-span" style="position: initial;"></span>
+        <span class="fa fa-envelope" style="border-right: 1px solid #ccc;"></span>
+		<button class="thm-btn" type="submit">Subscribe</button>
+	    
+    </form>
+</div>
+
+
+
+
+<script>
+    $(function(){
+		$('#subscriber-form').validate({
+			messages: {
+				email: {
+					required: 'Please enter your email address',
+					email: 'Please enter a valid email address'
+				}
+			},
+			errorPlacement: function(error, el) {
+                $('#error-span').html(error);
+            },
+			
+			submitHandler: function(form) {
+			    $("span.subscriber-result-div").hide();
+				RC.Server.Account.subscribe(RC.Form.serialize($(form)),{
+				    failure:function(context,msg,xml,jqXHR) {
+						serversideFilure(context, msg, xml, jqXHR, $(form), 'Email Subscription Failed');
+				    },
+				    success:function(c,h,x){ 
+				        bootbox.dialog({ 
+        			        message:'<h4 class="cart-title" style="color:green;"><strong>Successful Subscription. </strong></h4><hr>You have subscribed to our newsletter with <strong>' + $('#newsletter-email').val() + '</strong>. Thank you!',
+        			        buttons:{
+        			            main:{
+        			                label: "&nbsp;&nbsp;Close&nbsp;&nbsp;",
+        			                className: "btn btn-default"
+        			            }
+        			        }
+        			    });
+            			    
+				        $('#newsletter-email').val('');
+				        
+				    }
+				});
+			}
+		});
+	});
+</script>
+                            </div>
+                        </div>                     
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     
+     <!--Footer Bottom-->
+     <section class="footer-bottom">
+        <div class="container">
+            <div class="col-sm-6 info-all">
+                <p>
+                    
+                        
+                           Copyrights © 2020 All Rights Reserved. Powered by
+                         
+                    
+                    <a href="#"> NextCellular.</a>
+                </p>
+            </div>
+            <div class="col-sm-6 info-power get-text">
+                <ul style="display: inline-flex;">
+                    <li><a href="/page/privacy">Privacy & Policy |</a></li>
+                    <li><a href="/page/terms-conditions"> Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </section>
+    	</footer>
+    </div>
+
+	 <!-- Scroll Top Button -->
+    <button class="scroll-top tran3s color2_bg">
+        <span class="fa fa-angle-up"></span>
+    </button>
+    <!-- pre loader  -->
+    <div class="preloader"></div>
+    
+    <div id="sim-img-popup" class="modal modal-scroll fade" tabindex="-1" aria-hidden="true"  data-replace="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">SIM serial number</h4>
+                </div>
+                <div class="modal-body">
+                   <div style="width: 100%; text-align: center">
+    		    	    <img src="/files/001196/resources/theme/0001/sim.png" width="240px" alt="Can't find your serial number" />
+    		    	</div>
+                </div>
+                <div class="modal-footer" style="display: block !important;">
+                    <div>
+                        <button type="button" data-dismiss="modal" class="btn btn-default btn-add-cart-cancel">Dismiss </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="cart-updated-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header cart-block-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style=" margin-right: 0x; margin-top: 5px; font-size: 30px;">&times;</span></button>
+                   <h5 class="cart-title" style="font-size: 16px; font-weight: bold; color: #111; margin: 0px 0 0 0; ">IN YOUR CART</h5>
+                </div>
+                <div class="modal-body" >
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function(){
+            $('.ecaddr').attr('href', getEmAddr('info', 'nextcellular.co.za', 1));
+            $('.ecaddr').html(getEmAddr('info', 'nextcellular.co.za', 0));
+            
+            $('.ecaddr-epl').attr('href', getEmAddr('epl', 'nextcellular.co.za', 1));
+            $('.ecaddr-epl').html(getEmAddr('epl', 'nextcellular.co.za', 0));
+        });
+
+        $(function(){
+             $(window).unload(function() {
+                RC.Server.Session.Window.close({},{});
+             });
+        });
+    </script>
+    
+        <!-- revolution slider js -->
+    <script src="/files/001196/resources/theme/0001/jquery.themepunch.tools.min.js"></script>
+    <script src="/files/001196/resources/theme/0001/jquery.themepunch.revolution.min.js"></script>
+    <script src="/files/001196/resources/theme/0001/revolution.extension.actions.min.js"></script>
+    <script src="/files/001196/resources/theme/0001/revolution.extension.carousel.min.js"></script>
+    <script src="/files/001196/resources/theme/0001/revolution.extension.kenburn.min.js"></script>
+    <script src="/files/001196/resources/theme/0001/revolution.extension.layeranimation.min.js"></script>
+    <script src="/files/001196/resources/theme/0001/revolution.extension.migration.min.js"></script>
+    <script src="/files/001196/resources/theme/0001/revolution.extension.navigation.min.js"></script>
+    <script src="/files/001196/resources/theme/0001/revolution.extension.parallax.min.js"></script>
+    <script src="/files/001196/resources/theme/0001/revolution.extension.slideanims.min.js"></script>
+    <script src="/files/001196/resources/theme/0001/revolution.extension.video.min.js"></script>
+    
+    
+    
+     <script src="/files/001196/resources/theme/0001/owl.carousel.min.js"></script>
+
+    <!-- fancy box -->
+    <script src="/files/001196/resources/theme/0001/jquery.fancybox.pack.js"></script>
+    <script src="/files/001196/resources/theme/0001/jquery.polyglot.language.switcher.js"></script>
+    <script src="/files/001196/resources/theme/0001/nouislider.js"></script>
+    <script src="/files/001196/resources/theme/0001/jquery.bootstrap-touchspin.js"></script>
+    <!--<script src="/files/001196/resources/theme/0001/smoothscroll.js"></script>-->
+    <script src="/files/001196/resources/theme/0001/jquery.appear.js"></script>
+    
+    <script src="/files/001196/resources/theme/0001/jquery.countto.js"></script>
+    <script src="/files/001196/resources/theme/0001/jquery.flexslider.js"></script>
+    <script src="/files/001196/resources/theme/0001/imagezoom.js"></script>
+    <script src="/files/001196/resources/theme/0001/default-map.js"></script>
+    <script type="text/javascript" src="/files/001196/resources/theme/0001/custom-theme.js?v=1"></script>
+    <script src="/files/001196/resources/theme/0001/custom.js?v=8"></script>
+
+</body>
+</html>
