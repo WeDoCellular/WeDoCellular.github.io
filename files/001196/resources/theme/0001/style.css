@@ -671,7 +671,7 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 
 .theme_menu {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 1);
   position: relative;
   z-index: 2;
 }
@@ -929,7 +929,7 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 .theme_menu.stricky-fixed {
   margin: 0;
   position: fixed;
-  background: #fff;
+  background: #000000;
   top:0;
   left:0;
   width: 100%;
