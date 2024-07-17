@@ -12,12 +12,12 @@
     
     <link rel="stylesheet" type="text/css" media="all" href="/files/001196/resources/theme/0001/jquery-ui.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="/files/001196/resources/theme/0001/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" media="all" href="/files/001196/resources/theme/0001/style.css?v=4"/>
+    <link rel="stylesheet" type="text/css" media="all" href="/files/001196/resources/theme/0001/style.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="/files/001196/resources/theme/0001/owl.carousel.css"/>
 
     <link rel="stylesheet" type="text/css" media="all" href="/files/001196/resources/theme/0001/responsive.css"/>
     
-    <link rel="stylesheet" type="text/css" media="all" href="/files/001196/resources/theme/0001/custom.css?v=24"/>
+    <link rel="stylesheet" type="text/css" media="all" href="/files/001196/resources/theme/0001/custom.css"/>
     
     <script src="/files/001196/resources/theme/0001/jquery.js"></script>
     <script src="/files/001196/resources/theme/0001/bootstrap.min.js"></script>
@@ -112,31 +112,31 @@
         					 
                         				
                             
-        						<li><a href="/collection/voice~id.1"> Voice</a></li>
+        						<li><a href="/collection/voice"> Voice</a></li>
         					 
                         				
                             
-        						<li><a href="/collection/data~id.2"> Data</a></li>
+        						<li><a href="/collection/data"> Data</a></li>
         					 
                         				
                             
-        						<li><a href="/collection/combo~id.3"> Combo</a></li>
+        						<li><a href="/collection/combo"> Combo</a></li>
         					 
                         				
                               
-                                <li><a href=" /collection/top-ups~id.8 ">Top-ups</a>
+                                <li><a href=" /collection/top-ups">Top-ups</a>
                                     <ul class="dropdown">
                                         
-                                            <li><a  href="/collection/airtime~id.4">Airtime</a></li>
+                                            <li><a  href="/collection/airtime">Airtime</a></li>
                                         
-                                            <li><a  href="/collection/data-top-ups~id.6">Data Top-ups</a></li>
+                                            <li><a  href="/collection/data-top-ups">Data Top-ups</a></li>
                                         
                                     </ul>
                                 </li>
                             
                         				
                             
-        						<li><a href="/collection/sms~id.7"> SMS</a></li>
+        						<li><a href="/collection/sms"> SMS</a></li>
         					 
                         				
                             
@@ -218,7 +218,7 @@
                             
                                 
                                         
-                                           <a href="/collection/voice~id.1">Voice</a>
+                                           <a href="/collection/voice">Voice</a>
                                         
                                 
                             
@@ -248,15 +248,15 @@
         <div class="toolbar-sort default-form">
             <select class="chosen-select sorter-options form-control"  id="ipp-select">
                 
-                    <option value="12" data-url="/collection/voice~id.1?count=12" >12</option>
+                    <option value="12" data-url="/collection/voice?count=12" >12</option>
                 
-                    <option value="24" data-url="/collection/voice~id.1?count=24" >24</option>
+                    <option value="24" data-url="/collection/voice?count=24" >24</option>
                 
-                    <option value="36" data-url="/collection/voice~id.1?count=36" >36</option>
+                    <option value="36" data-url="/collection/voice?count=36" >36</option>
                 
-                    <option value="48" data-url="/collection/voice~id.1?count=48" >48</option>
+                    <option value="48" data-url="/collection/voice?count=48" >48</option>
                 
-                    <option value="all" data-url="/collection/voice~id.1" selected="selected">All</option>
+                    <option value="all" data-url="/collection/voice" selected="selected">All</option>
                 
             </select>
             <script>
@@ -274,28 +274,28 @@
             <select class="chosen-select limiter-options form-control" id="order-select" style="width: 260px;">
                 
                     
-                    <option value="age-new-old" data-url="/collection/voice~id.1?order=age-new-old" selected="selected">Age (new - old)</option>
+                    <option value="age-new-old" data-url="/collection/voice?order=age-new-old" selected="selected">Age (new - old)</option>
                 
                     
-                    <option value="age-old-new" data-url="/collection/voice~id.1?order=age-old-new" >Age (old - new)</option>
+                    <option value="age-old-new" data-url="/collection/voice?order=age-old-new" >Age (old - new)</option>
                 
                     
-                    <option value="price-low-high" data-url="/collection/voice~id.1?order=price-low-high" >Price (low - high)</option>
+                    <option value="price-low-high" data-url="/collection/voice?order=price-low-high" >Price (low - high)</option>
                 
                     
-                    <option value="price-high-low" data-url="/collection/voice~id.1?order=price-high-low" >Price (high - low)</option>
+                    <option value="price-high-low" data-url="/collection/voice?order=price-high-low" >Price (high - low)</option>
                 
                     
-                    <option value="name-a-z" data-url="/collection/voice~id.1?order=name-a-z" >Name (A - Z)</option>
+                    <option value="name-a-z" data-url="/collection/voice?order=name-a-z" >Name (A - Z)</option>
                 
                     
-                    <option value="name-z-a" data-url="/collection/voice~id.1?order=name-z-a" >Name (Z - A)</option>
+                    <option value="name-z-a" data-url="/collection/voice?order=name-z-a" >Name (Z - A)</option>
                 
                     
-                    <option value="code-a-z" data-url="/collection/voice~id.1?order=code-a-z" >Code (A - Z)</option>
+                    <option value="code-a-z" data-url="/collection/voice?order=code-a-z" >Code (A - Z)</option>
                 
                     
-                    <option value="code-z-a" data-url="/collection/voice~id.1?order=code-z-a" >Code (Z - A)</option>
+                    <option value="code-z-a" data-url="/collection/voice?order=code-z-a" >Code (Z - A)</option>
                 
             </select>
             <script>

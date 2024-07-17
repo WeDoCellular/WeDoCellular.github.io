@@ -103,7 +103,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-9 menu-column">
+            <!-- <div class="col-md-9 menu-column">
                 <nav class="menuzord" id="main_menu">
                    <ul class="menuzord-menu">
                         				
@@ -151,13 +151,13 @@
         						<li><a href="https://partners.next360.co.za:43552/Next360/"> Partners Login</a></li>
         					 
                               
-                    </ul><!-- End of .menuzord-menu -->
-                </nav> <!-- End of #main_menu -->
-            </div>
+                    </ul> End of .menuzord-menu
+                </nav>  End of #main_menu 
+            </div> -->
            
       
             
-                <div class="right-column">
+                <!-- <div class="right-column">
                     <div class="right-area">
                         <div class="nav_side_content">
                             <div class="search_option" style="margin-left: 15px;">
@@ -168,7 +168,7 @@
         <span class="counter-number">0</span>
     </span>
     <span class="counter-your-cart">
-        <!--<span class="counter-label">Your Cart:</span>-->
+        <span class="counter-label">Your Cart:</span>
         <span class="counter-price">R 0.00</span>
     </span>
 </a>
@@ -179,7 +179,7 @@
 
     
 
-<script>
+ <script>
     function DeleteProductPopup(productId){
         RC.Server.Cart.remove({ itemId:productId },
             {success:function(){ 
@@ -198,11 +198,26 @@
                     </div>
                 </div>
             
-        </div>
+        </div> -->
 
    </div> <!-- End of .conatiner -->
 </section>
     	</nav>
+    	<section>
+      		<div class="top-bar travel-country">
+            I am travelling to
+    
+                <select id="travel_country">
+                    <option value="">(select country)</option>
+                    
+                </select>
+            </div>
+
+            <script>
+                $("#travel_country").change(function() {
+                    window.location.href = $(this).find(':selected').data('url');
+                });
+            </script>
 
 
     <section class="rev_slider_wrapper" style="margin-top: 0px !important;">
@@ -7560,12 +7575,12 @@
   
       		
       		
-<a data-toggle="modal" id="global-subscription-popup-trigger" href="#global-subscription-popup" style="display: none" class="btn btn-default"><i class="fa fa-question-circle"></i> Show Global Subscription Popup</a>
+<!-- <a data-toggle="modal" id="global-subscription-popup-trigger" href="#global-subscription-popup" style="display: none" class="btn btn-default"><i class="fa fa-question-circle"></i> Show Global Subscription Popup</a> -->
 
 
  
     
-        <div id="global-subscription-popup" class="modal modal-scroll fade" tabindex="-1" aria-hidden="true"  data-replace="true">
+        <!-- <div id="global-subscription-popup" class="modal modal-scroll fade" tabindex="-1" aria-hidden="true"  data-replace="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -7631,10 +7646,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     
 
-<script>
+<!-- <script>
     $(function() {
         
             
@@ -7711,7 +7726,7 @@
         });
     });
 </script>
-    	</section>
+    	</section> -->
     	<section class="container">
             <script>
                 function getLayoutEncodedUrl(text) {
