@@ -112,31 +112,31 @@
         					 
                         				
                             
-        						<li><a href="/collection/voice~id.1"> Voice</a></li>
+        						<li><a href="/collection/voice"> Voice</a></li>
         					 
                         				
                             
-        						<li><a href="/collection/data~id.2"> Data</a></li>
+        						<li><a href="/collection/data"> Data</a></li>
         					 
                         				
                             
-        						<li><a href="/collection/combo~id.3"> Combo</a></li>
+        						<li><a href="/collection/combo"> Combo</a></li>
         					 
                         				
                               
-                                <li><a href=" /collection/top-ups~id.8 ">Top-ups</a>
+                                <li><a href=" /collection/top-ups">Top-ups</a>
                                     <ul class="dropdown">
                                         
-                                            <li><a  href="/collection/airtime~id.4">Airtime</a></li>
+                                            <li><a  href="/collection/airtime">Airtime</a></li>
                                         
-                                            <li><a  href="/collection/data-top-ups~id.6">Data Top-ups</a></li>
+                                            <li><a  href="/collection/data-top-ups">Data Top-ups</a></li>
                                         
                                     </ul>
                                 </li>
                             
                         				
                             
-        						<li><a href="/collection/sms~id.7"> SMS</a></li>
+        						<li><a href="/collection/sms"> SMS</a></li>
         					 
                         				
                             

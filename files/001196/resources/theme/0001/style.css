@@ -830,8 +830,8 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 
 .theme_menu .right-column {
     position: absolute;
-    right: 0;
-    width: 50px;
+    right: 50px;
+    width: 100px;
 }
 
 
