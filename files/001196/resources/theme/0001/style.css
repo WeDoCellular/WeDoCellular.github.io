@@ -840,6 +840,16 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   position: relative;
   right: 0;
 }
+
+.nav_side_content .thm-btn-tr{
+  margin-top: 44px;
+  position: relative;
+  right: 0;
+  text-align: center;
+  width: 200px;.
+
+}
+
 .nav_side_content .cart_select>button {
   font-size: 14px;
   text-transform: uppercase;
