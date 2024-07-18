@@ -5,7 +5,7 @@
 <!-- Head BEGIN -->
 <head>
 	<meta charset="utf-8">
-    <title>Best International Travelers SIM | NextCellular</title>
+    <title>Best International Travelers SIM | WeDoCellular</title>
     <meta name="description" content="Best International Travelers SIM">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='shortcut icon' type='image/x-icon' href="/files/001196/resources/theme/0001/logo-30.png" sizes="32x32">
@@ -57,7 +57,7 @@
             <ul class="top-bar-info">
                 <li>
                     
-        				Welcome to <strong>NextCellular</strong>, <a href="/sign-in"><strong>Sign-in</strong></a> or <a href="/register"><strong>Register</strong></a>
+        				Welcome to <strong>WeDoCellular</strong>, <a href="/sign-in"><strong>Sign-in</strong></a> or <a href="/register"><strong>Register</strong></a>
         			
                 
                 </li>
@@ -97,7 +97,7 @@
                     <a href="/">
                         
                             
-                                <img src="/files/001196/gallery/content/logo/nextcellular_black.png" class="img-responsive" alt="Logo" />
+                                <img src="/files/001196/gallery/content/logo/wedocellular_black.png" class="img-responsive" alt="Logo" />
                              
                         
                     </a>
@@ -253,7 +253,7 @@
                                     
                                 </div>
                                 <div class="text">
-                                     <p>Traveling for the first time out of India, or as a frequent traveler for business or leisure, you need to make sure you are well connected wherever you travel. In this digital age, you don&#39;t want to experience FOMO (fear of missing out) or be disconnected from your family and friends back home! Next360 offers you the best international travel SIM with affordable data and voice plans. This will not only allow you to travel and stay connected hassle-free but avoid any bill shocks when you are back home in India.&nbsp;</p><p>How to ensure you have a Next360 SIM the next time you travel?</p><ol><li>Right here on the website, https://nextcellular.co.in/, Select your destination country on the website, choose your plan, and checkout! Your SIM will be delivered to you before your travel date.&nbsp;Take your sim along with you and enjoy seamless connectivity and voice calls during your travel!</li><li>At your VFS office, after applying for your VISA, be sure to look out for our kiosks and SIM card distributors at the VFS offices. A sales agent will help you sign up for your Next360 International SIM card, assist you with selecting a data and voice plan,&nbsp;and your details will be captured for the SIM to be sent to your home before your travel date.&nbsp;</li><li>International Airports. Before your departure, pick up your Next360 SIM from a Next360 kiosk. An agent will assist you to sign up and select your data and voice plans. Your SIM will be activated just before you land on foreign soil!&nbsp;</li></ol><p>As simple as 1, 2, 3! Get your Next360 SIM today, or contact one of our local or international sales teams to inquire more about our SIMs&nbsp;and how to get one before you travel. Make your journey simple and memorable with the Next360 family!&nbsp;</p>
+                                     <p>Traveling for the first time out of India, or as a frequent traveler for business or leisure, you need to make sure you are well connected wherever you travel. In this digital age, you don&#39;t want to experience FOMO (fear of missing out) or be disconnected from your family and friends back home! Next360 offers you the best international travel SIM with affordable data and voice plans. This will not only allow you to travel and stay connected hassle-free but avoid any bill shocks when you are back home in India.&nbsp;</p><p>How to ensure you have a Next360 SIM the next time you travel?</p><ol><li>Right here on the website, https://wedocellular.co.in/, Select your destination country on the website, choose your plan, and checkout! Your SIM will be delivered to you before your travel date.&nbsp;Take your sim along with you and enjoy seamless connectivity and voice calls during your travel!</li><li>At your VFS office, after applying for your VISA, be sure to look out for our kiosks and SIM card distributors at the VFS offices. A sales agent will help you sign up for your Next360 International SIM card, assist you with selecting a data and voice plan,&nbsp;and your details will be captured for the SIM to be sent to your home before your travel date.&nbsp;</li><li>International Airports. Before your departure, pick up your Next360 SIM from a Next360 kiosk. An agent will assist you to sign up and select your data and voice plans. Your SIM will be activated just before you land on foreign soil!&nbsp;</li></ol><p>As simple as 1, 2, 3! Get your Next360 SIM today, or contact one of our local or international sales teams to inquire more about our SIMs&nbsp;and how to get one before you travel. Make your journey simple and memorable with the Next360 family!&nbsp;</p>
                                 </div>
                             </div>
                         </div>
@@ -467,7 +467,7 @@
                     <div class="modal-header">
                         <button type="button" class="close" role="dismiss" data-dismiss="modal" aria-hidden="true"><span aria-hidden="true">&times;</span></button>
                         <center>
-                            <img src="/files/001196/gallery/content/logo/nextcellular_black.png" style="width: 150px" alt="Logo" />
+                            <img src="/files/001196/gallery/content/logo/wedocellular_black.png" style="width: 150px" alt="Logo" />
                         </center>
                     </div>
                     <div class="modal-body" style="padding: 10px 20px 0px 20px;">
@@ -833,7 +833,7 @@
                            Copyrights © 2020 All Rights Reserved. Powered by
                          
                     
-                    <a href="#"> NextCellular.</a>
+                    <a href="#"> WeDoCellular.</a>
                 </p>
             </div>
             <div class="col-sm-6 info-power get-text">
@@ -890,11 +890,11 @@
     </div>
     <script>
         $(function(){
-            $('.ecaddr').attr('href', getEmAddr('info', 'nextcellular.co.za', 1));
-            $('.ecaddr').html(getEmAddr('info', 'nextcellular.co.za', 0));
+            $('.ecaddr').attr('href', getEmAddr('info', 'wedocellular.co.za', 1));
+            $('.ecaddr').html(getEmAddr('info', 'wedocellular.co.za', 0));
             
-            $('.ecaddr-epl').attr('href', getEmAddr('epl', 'nextcellular.co.za', 1));
-            $('.ecaddr-epl').html(getEmAddr('epl', 'nextcellular.co.za', 0));
+            $('.ecaddr-epl').attr('href', getEmAddr('epl', 'wedocellular.co.za', 1));
+            $('.ecaddr-epl').html(getEmAddr('epl', 'wedocellular.co.za', 0));
         });
 
         $(function(){

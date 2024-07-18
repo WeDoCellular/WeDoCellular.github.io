@@ -5,7 +5,7 @@
 <!-- Head BEGIN -->
 <head>
 	<meta charset="utf-8">
-    <title>Blog | NextCellular</title>
+    <title>Blog | WeDoCellular</title>
     <meta name="description" content="Post Covid19 International Travel Checklist">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='shortcut icon' type='image/x-icon' href="/files/001196/resources/theme/0001/logo-30.png" sizes="32x32">
@@ -57,7 +57,7 @@
             <ul class="top-bar-info">
                 <li>
                     
-        				Welcome to <strong>NextCellular</strong>, <a href="/sign-in"><strong>Sign-in</strong></a> or <a href="/register"><strong>Register</strong></a>
+        				Welcome to <strong>WeDoCellular</strong>, <a href="/sign-in"><strong>Sign-in</strong></a> or <a href="/register"><strong>Register</strong></a>
         			
                 
                 </li>
@@ -97,7 +97,7 @@
                     <a href="/">
                         
                             
-                                <img src="/files/001196/gallery/content/logo/nextcellular_black.png" class="img-responsive" alt="Logo" />
+                                <img src="/files/001196/gallery/content/logo/wedocellular_black.png" class="img-responsive" alt="Logo" />
                              
                         
                     </a>
@@ -233,7 +233,7 @@
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="default-blog-news wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
                             <figure class="img-holder">
-                                <a href="/blog-article/blog/travelling-checklist-post-covid19"><img src="/files/001196/gallery/articles/000003/nextcellular_house.jpg" alt="News"></a>
+                                <a href="/blog-article/blog/travelling-checklist-post-covid19"><img src="/files/001196/gallery/articles/000003/wedocellular_house.jpg" alt="News"></a>
                                 <figcaption class="overlay">
                                     <div class="box">
                                         <div class="content">
@@ -340,7 +340,7 @@
                     <div class="modal-header">
                         <button type="button" class="close" role="dismiss" data-dismiss="modal" aria-hidden="true"><span aria-hidden="true">&times;</span></button>
                         <center>
-                            <img src="/files/001196/gallery/content/logo/nextcellular_black.png" style="width: 150px" alt="Logo" />
+                            <img src="/files/001196/gallery/content/logo/wedocellular_black.png" style="width: 150px" alt="Logo" />
                         </center>
                     </div>
                     <div class="modal-body" style="padding: 10px 20px 0px 20px;">
@@ -706,7 +706,7 @@
                            Copyrights © 2020 All Rights Reserved. Powered by
                          
                     
-                    <a href="#"> NextCellular.</a>
+                    <a href="#"> WeDoCellular.</a>
                 </p>
             </div>
             <div class="col-sm-6 info-power get-text">
@@ -763,11 +763,11 @@
     </div>
     <script>
         $(function(){
-            $('.ecaddr').attr('href', getEmAddr('info', 'nextcellular.co.za', 1));
-            $('.ecaddr').html(getEmAddr('info', 'nextcellular.co.za', 0));
+            $('.ecaddr').attr('href', getEmAddr('info', 'wedocellular.co.za', 1));
+            $('.ecaddr').html(getEmAddr('info', 'wedocellular.co.za', 0));
             
-            $('.ecaddr-epl').attr('href', getEmAddr('epl', 'nextcellular.co.za', 1));
-            $('.ecaddr-epl').html(getEmAddr('epl', 'nextcellular.co.za', 0));
+            $('.ecaddr-epl').attr('href', getEmAddr('epl', 'wedocellular.co.za', 1));
+            $('.ecaddr-epl').html(getEmAddr('epl', 'wedocellular.co.za', 0));
         });
 
         $(function(){
