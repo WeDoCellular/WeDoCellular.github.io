@@ -684,21 +684,28 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   background: transparent;
 }
 
+*{
+  scroll-behavior: smooth; /* auto scrolls to relevant part of page */
+
+}
 
 .menuzord-menu > li > a {
     padding: 49px 15px 41px;
-    margin: 0 10px;
+    margin: 44px 10px;
     text-transform: uppercase;
     border-bottom: 5px solid transparent;
-    color: #222;
+    color: #ffffff;
     transition: .5s ease;
+    width: 120px;
+    font-size: medium;
+
 }
 .menuzord-menu > li.active a {
     border-color: #575455;
     color: #575455;
 }
 .menuzord-menu > li > a:hover {
-  color: #575455;
+  color: #2ed3f4;
   transition: .5s ease;
 }
 
@@ -727,6 +734,12 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 
 
 /*sticky*/
+/* .theme_menu.theme_menu.stricky-fixed{
+  z-index: 100px;
+  margin-bottom: 100px;
+
+} */
+
 .theme_menu.stricky-fixed .menuzord-menu > li > a {
   padding: 35px 15px 30px;
 }
@@ -846,7 +859,7 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   position: relative;
   right: 0;
   text-align: center;
-  width: 200px;.
+  width: 200px;
 
 }
 

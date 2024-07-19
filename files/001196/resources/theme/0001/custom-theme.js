@@ -585,7 +585,7 @@ function scrollToTop() {
 
         //Click event to scroll to top
         $('.scroll-top').click(function() {
-            $('html, body').animate({ scrollTop: 0 }, 1500);
+            $('html, body').animate({ scrollTop: 0 }, 100);
             return false;
         });
     }
